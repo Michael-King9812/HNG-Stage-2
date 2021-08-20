@@ -1,10 +1,3 @@
-<?php
-    include_once "process.php";
-    if ($_SESSION['setup'] == '0') {
-        
-    
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -96,22 +89,22 @@
 
                         <!-- Header Logo Start -->
                         <div class="header-logo">
-                            <a href="resume.php"><span style="color: black; font-weight: bold; font-size: 24px;">Michaelking</span></a>
+                            <a href="index.php"><span style="color: black; font-weight: bold; font-size: 24px;">Michaelking</span></a>
                         </div>
                         <!-- Header Logo End -->
 
                         <!-- Header Menu Start -->
                         <div class="header-menu d-none d-lg-block">
                             <ul class="nav-menu">
-                            <li><a href="resume.php">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>
-                                <a href="resume.php?#profile">Profile</a>
+                                <a href="index.php?#profile">Profile</a>
                             </li>
                             <li>
-                                <a href="resume.php?#skills">Skills</a>
+                                <a href="index.php?#skills">Skills</a>
                             </li>
                             <li>
-                                <a href="resume.php?#teams">Teams</a>
+                                <a href="index.php?#teams">Teams</a>
                             </li>
                             <li><a href="contact.php">Contact</a></li>
                             </ul>
@@ -161,7 +154,7 @@
             <!-- Mobile Menu Start -->
             <div class="mobile-menu-items">
                 <ul class="nav-menu">
-                    <li><a href="resume.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>
                         <a href="#profile">Profile</a>
                     </li>
@@ -207,7 +200,7 @@
         <!-- Page Banner Start -->
         <div class="page-banner-content">
             <ul class="breadcrumb">
-                <li><a href="resume.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li class="active">Contact</li>
             </ul>
             <!-- <h2 class="title">My <span>Resume</span></h2> -->
@@ -474,9 +467,3 @@
 </body>
 
 </html>
-
-<?php
-} else {
-    header("location: resume.php");
-}
-?>
